@@ -1,0 +1,253 @@
+body {
+  font-family: "ID Grotesk";
+}
+
+.header {
+  background-color: orange;
+  padding: 50px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+#h1,
+a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+#img-1 {
+  height: 18px;
+  position: absolute;
+  top: 60px;
+  color: #fff;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 320px) {
+  .header {
+   max-width: 250px;
+   width: 22px;
+   margin-right: 55px;
+  }
+  #a-1 {
+  text-align: center;
+  }
+  /* .main {
+    max-width: max-content;
+  } */
+  #alink {
+    background-color: rgb(214, 194, 194);
+    padding: 12px;
+    border-radius: 45px;
+  }
+  #h1 {
+    font-size: 33px;
+  }
+  #img-1 {
+    position: relative;
+    top: 2px;
+  }
+  #img-3 {
+    position: absolute;
+    top: 467rem;
+  }
+  #img-4{
+    position: relative;
+    top: 13px;
+    height: 23px;
+    right: 23px;
+  }
+
+  #btn-1 {
+    padding: 9px;
+    background-color: orange;
+    border: 1px solid#fff;
+    border-radius: 15px;
+    font-family: "ID Grotesk";
+  }
+
+  #h {
+    text-align: center;
+    margin-top: 59px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  #img-2 {
+    height: 32px;
+  }
+
+  #h1-1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  span {
+    color: orange;
+  }
+  #img8 {
+    width: 310px;
+    margin-top: 13px;
+  }
+  #p1 {
+    font-size: 33px;
+  }
+  #btn2,
+  #btn3 {
+    padding: 12px;
+    font-family: "ID Grotesk";
+    background-color: orange;
+    border: 1px solid #211414;
+    border-radius: 5px;
+  }
+  #section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 53px;
+  }
+  #section2 {
+    max-width: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1,
+  p {
+    text-align: center;
+    font-weight: 100;
+  }
+  .btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #pp {
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header {
+    width: 287px;
+    padding-right: 5px;
+    padding-left: 2px;
+    padding: 18px;
+    height: 11px;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    left: 7px;
+    margin-left: 10px;
+  }
+  #a-1 {
+    position: absolute;
+    top: 18px;
+    left: 82px;
+  }
+  #alink {
+    background-color: rgb(214, 194, 194);
+    padding: 12px;
+    border-radius: 45px;
+  }
+  #h1 {
+    font-size: 33px;
+  }
+  #img-1 {
+    position: relative;
+    top: 2px;
+  }
+
+  #img-3 {
+    position: absolute;
+    top: 244px;
+  }
+  #img-4 {
+    position: absolute;
+    top: 272px;
+    left: 28px;
+  }
+
+  #btn-1 {
+    padding: 9px;
+    background-color: orange;
+    border: 1px solid#fff;
+    border-radius: 15px;
+    font-family: "ID Grotesk";
+  }
+
+  #h {
+    text-align: center;
+    margin-top: 69px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  #img-2 {
+    height: 32px;
+  }
+
+  #h1-1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  span {
+    color: orange;
+  }
+  #img8 {
+    width: 345px;
+    margin-top: 23px;
+  }
+  #p1 {
+    font-size: 33px;
+  }
+  #btn2,
+  #btn3 {
+    padding: 12px;
+    font-family: "ID Grotesk";
+    background-color: orange;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+  #section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 53px;
+  }
+  #section2 {
+    max-width: 342px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1,
+  p {
+    text-align: center;
+    font-weight: 100;
+  }
+  .btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #pp {
+    font-weight: 100;
+  }
+}
