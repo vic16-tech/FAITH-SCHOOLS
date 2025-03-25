@@ -6,67 +6,139 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link href="https://fonts.cdnfonts.com/css/id-grotesk" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/id-grotesk" rel="stylesheet" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
-   <!-- HEADER START -->
+    <!-- HEADER START -->
     <div class="header">
-      <a href="" id="a-1"> <h1 id="h1">Free Courses, Enrol Now <img src="assets/arrow-right-up-line.svg" alt="" id="img-1"></a></h1>
+      <a href="" id="a-1">
+        Free Courses, Enrol Now
+        <img src="assets/arrow-right-up-line.svg" alt="" id="img-1"
+      /></a>
     </div>
     <!-- HEADER END -->
     <!-- NAVIGATION START -->
     <h1 id="h">Faith Schools, Makurdi.</h1>
-     <div class="flex">
-      
+    <div class="flex">
       <a href="" id="alink">Sign Up</a>
       <button id="btn-1">Log in</button>
-      <img src="assets/menu-3-line.svg" alt="" id="img-2">
-     </div>
+      <img src="assets/menu-3-line.svg" alt="" id="menuIcon" />
+    </div>
+    <ul style="display: none" id="menuList">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        id="closeIcon"
+        onclick="document.getElementById('menuList').style.display = 'none';"
+      >
+        <path
+          d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+        ></path>
+      </svg>
+      <li><a href="" id="aa">About</a></li>
+      <li><a href="" id="aa">Staff</a></li>
+      <li><a href="" id="aa">Scholarships</a></li>
+      <li><a href="" id="aa">Staff</a></li>
+      <li><a href="" id="aa">Result Portal</a></li>
+      <li><a href="" id="aa">Parent Dashboard</a></li>
+    </ul>
     <!-- NAVIGATION END -->
     <!-- MAIN START -->
-     <div class="main">
-      <img src="assets/Abstract Line.svg" alt="" id="img-3">
-      <img src="assets/Icon Container.svg" alt="" id="img-4">
+    <div class="main">
+      <img src="assets/Abstract Line.svg" alt="" id="img-3" />
+      <img src="assets/Icon Container.svg" alt="" id="img-4" />
       <p id="p1">Learn. Lead. Succeed.</p>
-     </div>
-     <h1 id="h1-1">Empowering young minds through <span>quality education</span>, character building, and innovation—preparing students for success in a changing world.</h1>
+    </div>
+    <h1 id="h1-1">
+      Empowering young minds through <span>quality education</span>, character
+      building, and innovation—preparing students for success in a changing
+      world.
+    </h1>
     <!-- MAIN END -->
-     <div class="btn-flex">
+    <div class="btn-flex">
       <button id="btn2"><a href="">Learn More</a></button>
       <button id="btn3"><a href="">Download Handbook</a></button>
-     </div>
-     <!-- SECTION 1 -->
-      <section id="section1">
-        <a href=""><img src="assets/Logo.svg" alt="" id="img5"></a>
-        <a href=""><img src="assets/Vector.svg" alt="" id="img6"></a>
-        <a href=""><img src="assets/Vector (1).svg" alt="" id="img7"></a>
-      </section>
-      <!-- SECTION 1 END -->
-       <!-- SECTION 2 -->
-      <section id="section2">
-      <img src="assets/Container.svg" alt="" id="img8">
-      <div><h1>Key Features</h1>
-        <p id="pp">Experience seamless learning with virtual classes, easy admissions, real-time results, an interactive admin dashboard, and a vibrant school community—all in one platform.</p>
+    </div>
+    <!-- SECTION 1 -->
+    <section id="section1">
+      <a href=""><img src="assets/Logo.svg" alt="" id="img5" /></a>
+      <a href=""><img src="assets/Vector.svg" alt="" id="img6" /></a>
+      <a href=""><img src="assets/Vector (1).svg" alt="" id="img7" /></a>
+    </section>
+    <!-- SECTION 1 END -->
+    <!-- SECTION 2 -->
+    <section id="section2">
+      <img src="assets/Container.svg" alt="" id="img8" />
+      <div>
+        <h1>Key Features</h1>
+        <p id="pp">
+          Experience seamless learning with virtual classes, easy admissions,
+          real-time results, an interactive admin dashboard, and a vibrant
+          school community—all in one platform.
+        </p>
       </div>
-      <div><h1>Results</h1>
-        <p>Instant access to student results with secure portals, detailed performance reports, and easy progress tracking for parents and teachers</p>
+      <div>
+        <h1>Results</h1>
+        <p>
+          Instant access to student results with secure portals, detailed
+          performance reports, and easy progress tracking for parents and
+          teachers
+        </p>
       </div>
-      <div><h1>Admissions</h1>
-        <p>Streamlined admissions with an easy online application, quick processing, and real-time updates—making enrollment simple and hassle-free.</p>
+      <div>
+        <h1>Admissions</h1>
+        <p>
+          Streamlined admissions with an easy online application, quick
+          processing, and real-time updates—making enrollment simple and
+          hassle-free.
+        </p>
       </div>
-      <div><h1>Virtual Classes</h1>
-      <p>Learn from anywhere with live interactive classes, recorded lessons, and real-time collaboration—bringing the classroom experience right to you!</p>
+      <div>
+        <h1>Virtual Classes</h1>
+        <p>
+          Learn from anywhere with live interactive classes, recorded lessons,
+          and real-time collaboration—bringing the classroom experience right to
+          you!
+        </p>
       </div>
-      <div><h1>Parent Dashboard</h1>
-      <p>Stay informed with the parent dashboard—track your child’s progress, view results, receive updates, and stay connected with the school effortlessly.</p>
+      <div>
+        <h1>Parent Dashboard</h1>
+        <p>
+          Stay informed with the parent dashboard—track your child’s progress,
+          view results, receive updates, and stay connected with the school
+          effortlessly.
+        </p>
       </div>
-      <div><h1> School Calendar & Events</h1>
-      <p>Stay updated with the school calendar—track important dates, exams, holidays, and events all in one place for seamless planning and organization</p>
+      <div>
+        <h1>School Calendar & Events</h1>
+        <p>
+          Stay updated with the school calendar—track important dates, exams,
+          holidays, and events all in one place for seamless planning and
+          organization
+        </p>
       </div>
-      <div><h1>Online Fee Payment</h1>
-      <p>Convenient and secure online fee payment—pay tuition, exam fees, and other charges effortlessly with instant receipts and real-time transaction tracking</p>
+      <div>
+        <h1>Online Fee Payment</h1>
+        <p>
+          Convenient and secure online fee payment—pay tuition, exam fees, and
+          other charges effortlessly with instant receipts and real-time
+          transaction tracking
+        </p>
       </div>
-      </section>
-      <button><h1>ghgh</h1></button>
+    </section>
+    <footer>
+      <div class="links">
+        <li>
+          <a href="" id="ahref">FQA's</a>
+          <a href="" id="ahref">Academy</a>
+          <a href="" id="ahref">Youtube</a>
+          <a href="" id="ahref">Admissions</a>
+          <input type="text" id="name" required placeholder="Email" />
+        </li>
+      </div>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>
