@@ -8,5 +8,3 @@ svg.addEventListener("click", function () {
     menuList.style.display = "none"
   }
 });
-
-
